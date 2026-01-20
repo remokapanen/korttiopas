@@ -22,7 +22,7 @@ Ranki-korteissa on aina sanoja joko painotettuna, kursivoituna tai alleviivattun
 
 Aina ei ole ehkä näin simppeliä, mutta tällä ajattelumallilla pääsee pitkälle. Kun kortit ovat vakioituun tapaan sommiteltu, niin kortteja läpikäydessä voi nopeasti silmäillä kortteja ja koko lausetta lukematta saada käsityksen kysymyksestä ja siten nopeuttaa korttien läpikäymistä massiivisesti. 
 
-- Esimerkki: Menieren tautiin halutan silmät ensimmäiseksi, koska kortti käsittelee sitä ja halutaan heti viestiä, että "Hei, nyt puhutaan Menieren taudista eikä mistään muusta". Sitten on makukysymys, haluaako korostaa enemmän hoitoa vai akuuttivaihetta, mutta molemmat boldataan ja tässä olen kororstanut enemmän akuuttivaihetta (tämän takia valinnut alleviivauksen), koska on toisia kortteja, joissa taas kysytään enemmänkin rauhallisen vaiheen hoidosta kohtausten eston suhteen.
+- Esimerkki: Menieren tautiin halutaan silmät ensimmäiseksi, koska kortti käsittelee sitä ja halutaan heti viestiä, että "Hei, nyt puhutaan Menieren taudista eikä mistään muusta". Sitten on makukysymys, haluaako korostaa enemmän hoitoa vai akuuttivaihetta, mutta molemmat korostetaan jollain tavalla ja tässä olen tässä halunnut tuoda enemmän akuuttivaihetta esiin (tämän takia valinnut alleviivauksen), koska on toisia kortteja, joissa taas kysytään enemmänkin rauhallisen vaiheen hoidosta kohtausten eston suhteen.
 
 ![](images/typografia.png)
 
