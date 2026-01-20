@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Kappale 4 Workflow | Opas Anki-korttien luomiseen</title>
+  <meta name="description" content="Kappale 4 Workflow | Opas Anki-korttien luomiseen" />
+  <meta name="generator" content="bookdown 0.45 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Kappale 4 Workflow | Opas Anki-korttien luomiseen" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Kappale 4 Workflow | Opas Anki-korttien luomiseen" />
+  
+  
+  
+
+<meta name="author" content="" />
+
+
+<meta name="date" content="2026-01-20" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="kortit-itse.html"/>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./"></a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About</a></li>
+<li class="chapter" data-level="2" data-path="periaatteet.html"><a href="periaatteet.html"><i class="fa fa-check"></i><b>2</b> Periaatteet</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="periaatteet.html"><a href="periaatteet.html#periaate-0-ajattele-muita"><i class="fa fa-check"></i><b>2.1</b> Periaate 0: Ajattele muita</a></li>
+<li class="chapter" data-level="2.2" data-path="periaatteet.html"><a href="periaatteet.html#periaate-1-perusteet-kuntoon"><i class="fa fa-check"></i><b>2.2</b> Periaate 1: Perusteet kuntoon</a></li>
+<li class="chapter" data-level="2.3" data-path="periaatteet.html"><a href="periaatteet.html#Periaate2"><i class="fa fa-check"></i><b>2.3</b> Periaate 2: Pilko pienemmäksi</a></li>
+<li class="chapter" data-level="2.4" data-path="periaatteet.html"><a href="periaatteet.html#periaate-3-kokonaisuus"><i class="fa fa-check"></i><b>2.4</b> Periaate 3: Kokonaisuus</a></li>
+<li class="chapter" data-level="2.5" data-path="periaatteet.html"><a href="periaatteet.html#periaate-4-toistaminen"><i class="fa fa-check"></i><b>2.5</b> Periaate 4: Toistaminen</a></li>
+<li class="chapter" data-level="2.6" data-path="periaatteet.html"><a href="periaatteet.html#periaate-5-kuvat"><i class="fa fa-check"></i><b>2.6</b> Periaate 5: Kuvat</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="kortit-itse.html"><a href="kortit-itse.html"><i class="fa fa-check"></i><b>3</b> Kortit itse</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="kortit-itse.html"><a href="kortit-itse.html#korttipohja"><i class="fa fa-check"></i><b>3.1</b> Korttipohja</a></li>
+<li class="chapter" data-level="3.2" data-path="kortit-itse.html"><a href="kortit-itse.html#typografinen-painottaminen"><i class="fa fa-check"></i><b>3.2</b> Typografinen painottaminen</a></li>
+<li class="chapter" data-level="3.3" data-path="kortit-itse.html"><a href="kortit-itse.html#Tagays"><i class="fa fa-check"></i><b>3.3</b> Tägäys</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="workflow.html"><a href="workflow.html"><i class="fa fa-check"></i><b>4</b> Workflow</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="workflow.html"><a href="workflow.html#Luentotarjonta"><i class="fa fa-check"></i><b>4.1</b> Vaihe 1: Silmäile luentotarjonta</a></li>
+<li class="chapter" data-level="4.2" data-path="workflow.html"><a href="workflow.html#Muut-resurssit"><i class="fa fa-check"></i><b>4.2</b> Vaihe 2: Etsi käsiisi muut resurssit</a></li>
+<li class="chapter" data-level="4.3" data-path="workflow.html"><a href="workflow.html#vaihe-3-opiskele-aihe"><i class="fa fa-check"></i><b>4.3</b> Vaihe 3: Opiskele aihe</a></li>
+<li class="chapter" data-level="4.4" data-path="workflow.html"><a href="workflow.html#Jarjestys"><i class="fa fa-check"></i><b>4.4</b> Vaihe 4: Suunnittele korttien järjestys</a></li>
+<li class="chapter" data-level="4.5" data-path="workflow.html"><a href="workflow.html#vaihe-5-korttien-luominen"><i class="fa fa-check"></i><b>4.5</b> Vaihe 5: Korttien luominen</a></li>
+<li class="chapter" data-level="4.6" data-path="workflow.html"><a href="workflow.html#vinkit"><i class="fa fa-check"></i><b>4.6</b> Vinkit</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank"></a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Opas Anki-korttien luomiseen</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="workflow" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Kappale 4</span> Workflow<a href="workflow.html#workflow" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Kuten sanoin aikaisemmin, niin jokainen löytää varmasti itselleen parhaiten sopivan workflown vain kokemuksen kautta, mutta tässä oma mallini pähkinänkuoressa. Raskain ja aikaavievin vaihe korttien luomisessa on alkuvaihe, jossa pitää päättää, että miten ja missä järjestyksessä alkaa luomaan kortteja. Tätä vaikeuttaa/hidastaa merkittävästi huonot luentodiat - harmillisesti luentodiojen heikkous ja sekavuus on enemmänkin sääntö kuin poikkeus.</p>
+<div id="Luentotarjonta" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Vaihe 1: Silmäile luentotarjonta<a href="workflow.html#Luentotarjonta" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Monesti tietyn luennon aiheita käsitellään myös toisilla kurssin luennoilla. Tässä tapauksessa on usein mielekästä yhdistää luentojen oppeja. Kannattaakin avata toiselle näytölle kaikki luennot, jotka liittyvät tulevien korttien aiheisiin ja lähteä suunnittelemaan, miten haluaa jäsennellä kortit ja mitä on järkevää laittaa samaan tägiin ja mitä toisen tägin alle.</p>
+</div>
+<div id="Muut-resurssit" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Vaihe 2: Etsi käsiisi muut resurssit<a href="workflow.html#Muut-resurssit" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Lähes koskaan luento ei ole niin täydellinen, että se riittäisi yksin korttien luomiseen. Kannattaa avata toiselle näytölle aiheeseen liittyvät osiot kurssin oppikirjasta, etsiä Terveysportista sopivat artikkelit/hoito-ohjeet ja Käypä Hoito-suositukset sekä aina mahdollisuuksien mukaan etsiä hyviä opetusvideoita aiheesta. Sketchyllä on usein hyviä videoita (joiden kuvia ja tägejä myös sitten kannattaa lisätä kortteihin), mutta myös muita kolmannen osapuolen videoita löytyy netistä runsaasti; varsinkin kannattaa etsiä USMLE-tentteihin kohdistettuja videoita, joita tarjoaa mm. Bootcamp, Boards and Beyond, OnlineMedED yms. Nämä eivät ole yleensä laillisesti saatavilla ilmaiseksi, mutta etsimällä aina löytää (voin myös vinkata tarvittaessa, jos ei tunnu löytyvän).</p>
+<p>Tärkeä resurssi, jota ei kannata unohtaa on AnKing. Sieltä voi usein löytää joitain kortteja, joita voi käyttää inspiraationa omilleen. Klinikassa AnKingin korttitarjonta on kuitenkin todella puutteellinen ja aiheita ei käsitellä läheskään tarpeeksi kattavasti, mutta kyllä niistä välillä jotain iloa on. Preklinikassa AnKingin kortit ovat kuitenkin usein hyvinkin kattavia.</p>
+</div>
+<div id="vaihe-3-opiskele-aihe" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Vaihe 3: Opiskele aihe<a href="workflow.html#vaihe-3-opiskele-aihe" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Luennon aiheet kannattaa opiskella ennen korttien tekemisen aloittamista, jotta saa yleisen käsityksen siitä, millaisen korttikokonaisuuden tulee luomaan. Aihetta ei tarvitse osata kovinkaan tarkasti tässä alkuvaiheessa, mutta nopea opiskelu nopeuttaa korttien luomista merkittävästi. Silmäile esim. luentodiat läpi nopeasti ja saa käsitys siitä, mitä aiheita luennolla käsitellään ja kuinka paljon tietoa tulee paikata muista resursseista. Ota myös muistiin resurssit, joista opiskelit ja joiden pohjalta loit kortit, koska muiden opiskelijoiden kannattaa useimmiten opiskella samat materiaalit kuin korttien luojankin.</p>
+</div>
+<div id="Jarjestys" class="section level2 hasAnchor" number="4.4">
+<h2><span class="header-section-number">4.4</span> Vaihe 4: Suunnittele korttien järjestys<a href="workflow.html#Jarjestys" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Kortit on Rankissa yleisesti ottaen sellaisessa järjestyksessä, että niiden läpikäyminen seuraa loogista reittiä. Ei ole järkevää, että tägin alussa on kortti, joka on tarkentava kysymys jostain spesifisestä aiheesta, vaan on järkevämpää, että kortit seuraavat opettavaista järjestystä, jossa alussa käydään yleisiä asioita aiheesta ja vasta niiden jälkeen mennään tarkemmin tiettyihin aiheisiin. Yksittäisten korttien järjestys ei tule olla erityisen tarkasti suunniteltu vielä tässä vaiheessa, mutta karkea ajatus kannattaa olla.</p>
+</div>
+<div id="vaihe-5-korttien-luominen" class="section level2 hasAnchor" number="4.5">
+<h2><span class="header-section-number">4.5</span> Vaihe 5: Korttien luominen<a href="workflow.html#vaihe-5-korttien-luominen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Sitten vain töihin. Jos tajuaakin, että on unohtanut tärkeitä kortteja jostain välistä ja ei saa niitä enää järjesteltyä sopivaan järjestykseen, niin voi tehdä niin, että tekee puuttuvat kortit ja sitten tekee väärässä kohdassa olevat kortit uudestaan ja poistaa niiden kaksoset pois pakasta. Valmiiden korttien siisti järjestely ei oikein toimi ilman duplikaattien tekemistä ja vanhojen poistamista, koska AnkiCollab järjestelee kortit niiden tekoajan perusteella, ei niiden Due #:n perusteella.</p>
+</div>
+<div id="vinkit" class="section level2 hasAnchor" number="4.6">
+<h2><span class="header-section-number">4.6</span> Vinkit<a href="workflow.html#vinkit" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Korttien pin-funktion hyödyntäminen</strong></p>
+<ul>
+<li>Kun luo kortteja, niin ei ole mielekästä kirjoittaa samaa asiaa kymmentä kertaa aina extra-kenttään, vaan jos on kerran kirjoittanut hyvän tiivistelmän aiheesta ja haluaa tämän pysyvän monissa peräkkäisissä korteissa, niin voi hyödyntää Ankin pin-toimintoa ja liimata fieldin matskun korttiin niin, että se ei katoa minnekkään kortin luomisen jälkeen vaan säilyy seuraavassakin kortissa luomisvaiheessa.</li>
+<li>Samalla toiminnolla mm. Lecture Notes-kuvat pysyvät kaikissa aiheen korteissa automaattisesti</li>
+</ul>
+<p><img src="images/pin.png" /></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="kortit-itse.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": "https://github.com/USERNAME/REPO/edit/BRANCH/03-Workflow.Rmd",
+    "text": "Edit"
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": ["_main.pdf", "_main.epub"],
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
+});
+});
+</script>
+
+</body>
+
+</html>

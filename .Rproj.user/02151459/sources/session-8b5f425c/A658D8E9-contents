@@ -1,0 +1,34 @@
+# Workflow
+
+Kuten sanoin aikaisemmin, niin jokainen löytää varmasti itselleen parhaiten sopivan workflown vain kokemuksen kautta, mutta tässä oma mallini pähkinänkuoressa. Raskain ja aikaavievin vaihe korttien luomisessa on alkuvaihe, jossa pitää päättää, että miten ja missä järjestyksessä alkaa luomaan kortteja. Tätä vaikeuttaa/hidastaa merkittävästi huonot luentodiat - harmillisesti luentodiojen heikkous ja sekavuus on enemmänkin sääntö kuin poikkeus. 
+
+## Vaihe 1: Silmäile luentotarjonta {#Luentotarjonta}
+
+Monesti tietyn luennon aiheita käsitellään myös toisilla kurssin luennoilla. Tässä tapauksessa on usein mielekästä yhdistää luentojen oppeja. Kannattaakin avata toiselle näytölle kaikki luennot, jotka liittyvät tulevien korttien aiheisiin ja lähteä suunnittelemaan, miten haluaa jäsennellä kortit ja mitä on järkevää laittaa samaan tägiin ja mitä toisen tägin alle. 
+
+## Vaihe 2: Etsi käsiisi muut resurssit {#Muut-resurssit}
+
+Lähes koskaan luento ei ole niin täydellinen, että se riittäisi yksin korttien luomiseen. Kannattaa avata toiselle näytölle aiheeseen liittyvät osiot kurssin oppikirjasta, etsiä Terveysportista sopivat artikkelit/hoito-ohjeet ja Käypä Hoito-suositukset sekä aina mahdollisuuksien mukaan etsiä hyviä opetusvideoita aiheesta. Sketchyllä on usein hyviä videoita (joiden kuvia ja tägejä myös sitten kannattaa lisätä kortteihin), mutta myös muita kolmannen osapuolen videoita löytyy netistä runsaasti; varsinkin kannattaa etsiä USMLE-tentteihin kohdistettuja videoita, joita tarjoaa mm. Bootcamp, Boards and Beyond, OnlineMedED yms. Nämä eivät ole yleensä laillisesti saatavilla ilmaiseksi, mutta etsimällä aina löytää (voin myös vinkata tarvittaessa, jos ei tunnu löytyvän). 
+
+Tärkeä resurssi, jota ei kannata unohtaa on AnKing. Sieltä voi usein löytää joitain kortteja, joita voi käyttää inspiraationa omilleen. Klinikassa AnKingin korttitarjonta on kuitenkin todella puutteellinen ja aiheita ei käsitellä läheskään tarpeeksi kattavasti, mutta kyllä niistä välillä jotain iloa on. Preklinikassa AnKingin kortit ovat kuitenkin usein hyvinkin kattavia. 
+
+## Vaihe 3: Opiskele aihe 
+
+Luennon aiheet kannattaa opiskella ennen korttien tekemisen aloittamista, jotta saa yleisen käsityksen siitä, millaisen korttikokonaisuuden tulee luomaan. Aihetta ei tarvitse osata kovinkaan tarkasti tässä alkuvaiheessa, mutta nopea opiskelu nopeuttaa korttien luomista merkittävästi. Silmäile esim. luentodiat läpi nopeasti ja saa käsitys siitä, mitä aiheita luennolla käsitellään ja kuinka paljon tietoa tulee paikata muista resursseista. Ota myös muistiin resurssit, joista opiskelit ja joiden pohjalta loit kortit, koska muiden opiskelijoiden kannattaa useimmiten opiskella samat materiaalit kuin korttien luojankin. 
+
+## Vaihe 4: Suunnittele korttien järjestys {#Jarjestys}
+
+Kortit on Rankissa yleisesti ottaen sellaisessa järjestyksessä, että niiden läpikäyminen seuraa loogista reittiä. Ei ole järkevää, että tägin alussa on kortti, joka on tarkentava kysymys jostain spesifisestä aiheesta, vaan on järkevämpää, että kortit seuraavat opettavaista järjestystä, jossa alussa käydään yleisiä asioita aiheesta ja vasta niiden jälkeen mennään tarkemmin tiettyihin aiheisiin. Yksittäisten korttien järjestys ei tule olla erityisen tarkasti suunniteltu vielä tässä vaiheessa, mutta karkea ajatus kannattaa olla. 
+
+## Vaihe 5: Korttien luominen 
+
+Sitten vain töihin. Jos tajuaakin, että on unohtanut tärkeitä kortteja jostain välistä ja ei saa niitä enää järjesteltyä sopivaan järjestykseen, niin voi tehdä niin, että tekee puuttuvat kortit ja sitten tekee väärässä kohdassa olevat kortit uudestaan ja poistaa niiden kaksoset pois pakasta. Valmiiden korttien siisti järjestely ei oikein toimi ilman duplikaattien tekemistä ja vanhojen poistamista, koska AnkiCollab järjestelee kortit niiden tekoajan perusteella, ei niiden Due #:n perusteella. 
+
+## Vinkit 
+
+**Korttien pin-funktion hyödyntäminen**
+
+- Kun luo kortteja, niin ei ole mielekästä kirjoittaa samaa asiaa kymmentä kertaa aina extra-kenttään, vaan jos on kerran kirjoittanut hyvän tiivistelmän aiheesta ja haluaa tämän pysyvän monissa peräkkäisissä korteissa, niin voi hyödyntää Ankin pin-toimintoa ja liimata fieldin matskun korttiin niin, että se ei katoa minnekkään kortin luomisen jälkeen vaan säilyy seuraavassakin kortissa luomisvaiheessa. 
+- Samalla toiminnolla mm. Lecture Notes-kuvat pysyvät kaikissa aiheen korteissa automaattisesti 
+
+![](images/pin.png)
